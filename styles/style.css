@@ -38,7 +38,9 @@
 
 /* ----------------------------discount section---------------------------- */
 .discount-section {
-    margin-top: 120px;
+    margin: 120px auto;
+    width: 1600px;
+    height: 733px;
     display: flex;
     flex-direction: column;
     justify-content: center;
