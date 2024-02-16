@@ -195,7 +195,7 @@
 /* ----------------------------portfolio section---------------------------- */
 .portfolio-section {
     width: 1320px;
-    height: 733px;
+    height: 1230px;
 }
 
 .portfolio-section h3 {
@@ -216,7 +216,7 @@
     margin-bottom: 20px;
 }
 
-.portfolio-section > p {
+.portfolio-section>p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -235,4 +235,67 @@
     width: 424px;
     height: 450px;
     border-radius: 16px;
+}
+
+/* ----------------------------subscription section---------------------------- */
+.subscription-section {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription-section h1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+    margin-top: 40px;
+}
+
+.subscription-section p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    margin-bottom: 48px;
+}
+
+.subscription-section form input {
+    width: 648px;
+    height: 71px;
+    padding-left: 20px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+
+}
+
+
+.subscription-section form button {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    margin-left: -4px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
 }
