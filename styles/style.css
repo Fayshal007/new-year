@@ -89,6 +89,7 @@
     color: white;
     border-radius: 16px;
     margin-top: 120px;
+    display: flex;
 
 }
 
@@ -122,6 +123,12 @@
     font-weight: 700;
     text-transform: uppercase;
     padding-left: 120px;
+}
+
+.invitation-section img {
+    width: 319.83px;
+    height: 464.662px;
+    margin-top: 65px;
 }
 
 /* ----------------------------circle image section---------------------------- */
@@ -326,10 +333,12 @@ footer {
     font-weight: 500;
     line-height: 40px;
 }
-.address{
+
+.address {
     margin-left: 50px;
 }
-.contact{
+
+.contact {
     margin-right: 50px;
 }
 
